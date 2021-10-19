@@ -83,7 +83,6 @@ for (j in pcens){
 }
 
 # save simulated datasets
-save(sim.wom.dat, sim.emb.dat
-     , file=paste0("data_simulated/simdata_knownmech.Rdat"))
+save(sim.wom.dat, sim.emb.dat, file="data/simdata_knownmech.Rdat")
       
 
